@@ -344,7 +344,7 @@
                 const nickname = 'DeepGit';
                 navigator.clipboard.writeText(nickname).then(() => {
                     const originalText = copyBtn.innerHTML;
-                    copyBtn.innerHTML = '<i class="fas fa-check"></i> Ник скопирован!';
+                    copyBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
                     setTimeout(() => {
                         copyBtn.innerHTML = originalText;
                     }, 2000);
